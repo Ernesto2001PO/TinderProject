@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Primer Fragment -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.tinderproject.fragments.PeopleFragment"
+        android:label="MainFragment" />
+
+    <!-- Segundo Fragment (destino) -->
+    <fragment
+        android:id="@+id/likesFragment"
+        android:name="com.example.tinderproject.fragments.LikesFragment"
+        android:label="LikesFragment" />
+
+</navigation>
